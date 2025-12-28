@@ -1,0 +1,16 @@
+{
+	"name": "racetrack",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "node server/index.js",
+		"dev": "nodemon server/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hugoqdesh/racetrack.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs"
+}
