@@ -3,7 +3,34 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Leaderboard</title>
 	</head>
-	<body></body>
+	<body class="flex flex-col items-center justify-center min-h-screen gap-6">
+		<div class="flex items-center gap-6">
+			<h1 class="text-4xl font-semibold">Leaderboard</h1>
+			<p class="text-2xl">|</p>
+			<span class="text-4xl font-medium">10:00</span>
+			<p class="text-2xl">|</p>
+			<div class="w-14 h-10 bg-green-500"></div>
+		</div>
+
+		<div class="flex flex-col gap-6 max-w-3xl w-full">
+			<div class="flex items-center justify-between border rounded-lg p-2">
+				<p class="text-sm font-medium">POS</p>
+				<p class="text-sm font-medium">CAR</p>
+				<p class="text-sm font-medium">DRIVER</p>
+				<p class="text-sm font-medium">FASTEST LAP</p>
+				<p class="text-sm font-medium">LAP</p>
+			</div>
+
+			<div class="flex items-center justify-between border rounded-lg p-2">
+				<p class="text-lg font-medium">1</p>
+				<p class="text-lg font-medium">Car 1</p>
+				<p class="text-lg font-medium">Person 1</p>
+				<p class="text-lg font-medium">48.234</p>
+				<p class="text-lg font-medium">12</p>
+			</div>
+		</div>
+	</body>
 </html>
